@@ -56,7 +56,7 @@ def Stop():
         writer_object = writer(f_object)
         writer_object.writerow(List)
         f_object.close()
-        sys.exit("BYE")
+        sys.exit("Bye Bye")
         
 
 
@@ -66,7 +66,7 @@ root.title("Screen Time")
 	
 # Fixing the window size. 
 root.minsize(width=250, height=70) 
-label = Tkinter.Label(root, text="Welcome!", fg="black", font="Verdana 30 bold") 
+label = Tkinter.Label(root, text="Welcome!", fg="red", font="Verdana 30 bold") 
 label.pack() 
 f = Tkinter.Frame(root) 
 running = True
